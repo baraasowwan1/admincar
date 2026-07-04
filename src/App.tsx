@@ -434,7 +434,7 @@ export default function AdminApp() {
               <Car size={28} className="text-black"/>
             </div>
             <h1 className="text-2xl font-black text-white">لوحة التحكم</h1>
-            <p className="text-sm mt-1" style={{ color:"rgba(201,167,74,0.8)" }}>الطريق السريع لتأجير السيارات</p>
+            <p className="text-sm mt-1" style={{ color:"rgba(201,167,74,0.8)" }}></p>
           </div>
           <form onSubmit={handleLogin} className="p-6 rounded-2xl space-y-4" style={G.card}>
             {["user","pass"].map(f => (
@@ -519,7 +519,7 @@ export default function AdminApp() {
             </div>
             <div>
               <p className="text-white font-black text-xs leading-tight">لوحة التحكم</p>
-              <p className="text-xs leading-tight" style={{ color:"rgba(201,167,74,0.7)" }}>الطريق السريع</p>
+              <p className="text-xs leading-tight" style={{ color:"rgba(201,167,74,0.7)" }}></p>
             </div>
           </div>
         </div>
